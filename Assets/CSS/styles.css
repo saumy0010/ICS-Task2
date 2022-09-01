@@ -19,14 +19,12 @@ body {
 
 .centered-left {
     position: absolute;
-    /* text-align: center; */
     top: 27vh;
     left: 2vw;
 }
 
 .centered-right {
     position: absolute;
-    /* text-align: center; */
     top: 15vh;
     left: 38vw;
 }
@@ -40,7 +38,6 @@ body {
 }
 
 #bio-txt {
-    /* color: #808080; */
     margin-right: 80vw;
     margin-top: 3vh;
     line-height: 1.8;
