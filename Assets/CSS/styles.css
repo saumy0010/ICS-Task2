@@ -10,38 +10,32 @@ body {
 
 .split-right {
     width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 9%;
+    padding-right: 9%;
+    text-align: justify;
+    padding-bottom: 9%;
 }
 
 .split-left {
     width: 30%;
     background-color: #36D20C;
-}
-
-.centered-left {
-    position: absolute;
-    top: 27vh;
-    left: 2vw;
-}
-
-.centered-right {
-    position: absolute;
-    top: 15vh;
-    left: 38vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-bottom: 9%;
 }
 
 #about-txt {
     color: #808080;
-    margin-right: 13vw;
-    margin-top: 3vh;
     line-height: 1.8;
-    text-align: justify;
 }
 
 #bio-txt {
-    margin-right: 80vw;
-    margin-top: 3vh;
     line-height: 1.8;
-    text-align: justify;
 }
 
 img {
@@ -62,12 +56,12 @@ img {
 
 .image {
     position: absolute;
-    top: 27vh;
-    left: 22vw;
+    top: 27%;
+    left: 22%;
 }
 
 .btn {
-    margin-top: 4vh;
+    margin-top: 4%;
 }
 
 .btn button {
